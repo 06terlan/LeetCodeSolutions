@@ -18,6 +18,7 @@ This repository contains my solutions to problems on LeetCode. Each solution is 
 | Problem Number | Problem Title | Difficulty | Solution |
 |----------------|---------------|------------|----------|
 | 73 | Set Matrix Zeroes | Medium | [java](./java/SetMatrixZeroes.java) |
+| 173 | Binary Search Tree Iterator | Medium | [java](./java/BinarySearchTreeIterator.java) |
 
 
 The table above lists all the problems I've solved so far. The solutions are categorized by programming language and can be found in their respective directories.
