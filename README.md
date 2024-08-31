@@ -19,6 +19,7 @@ This repository contains my solutions to problems on LeetCode. Each solution is 
 |----------------|---------------|------------|----------|
 | 73 | Set Matrix Zeroes | Medium | [java](./java/SetMatrixZeroes.java) |
 | 173 | Binary Search Tree Iterator | Medium | [java](./java/BinarySearchTreeIterator.java) |
+| 450 | Delete Node in a BST | Medium | [java](./java/DeleteNodeInBST.java) |
 | 787 | Cheapest Flights Within K Stops | Medium | [java](./java/CheapestFlightsWithinKStops.java) |
 
 

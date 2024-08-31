@@ -14,7 +14,7 @@ import java.util.Queue;
  */
 public class CheapestFlightsWithinKStops {
 /**
-     * Bellman Ford agloright used
+     * Dijkstra Algorithm
      */
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
         // represent the destinations that needs to be visited next
