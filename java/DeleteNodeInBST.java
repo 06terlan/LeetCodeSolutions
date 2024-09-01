@@ -1,5 +1,7 @@
 package java;
 
+import tarlan.printer.com.helper.TreeNode;
+
 /**
  * Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.
  *
@@ -15,9 +17,9 @@ public class DeleteNodeInBST {
         if (root == null)
             return null;
         
-        if (key > root.val) {
+        if (key > root.value) {
             root.right = deleteNode(root.right, key);
-        } else if (key < root.val) {
+        } else if (key < root.value) {
             root.left = deleteNode(root.left, key);
         } else {
             if (root.right == null) {
@@ -26,9 +28,9 @@ public class DeleteNodeInBST {
                 return root.right;
             } else {
                 TreeNode minNode = getMin(root.right);
-                root.val = minNode.val;
+                root.value = minNode.value;
 
-                root.right = deleteNode(root.right, minNode.val);
+                root.right = deleteNode(root.right, minNode.value);
             }
         }
 
