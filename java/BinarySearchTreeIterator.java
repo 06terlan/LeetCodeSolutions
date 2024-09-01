@@ -39,6 +39,6 @@ public class BinarySearchTreeIterator {
         final TreeNode cur = nodes.pop();
         fillLeftNodes(cur.right);
 
-        return cur.val;
+        return cur.value;
     }
 }
